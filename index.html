@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzay Keşifleri</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <header>
+        <div class="custom-cursor"></div>
+        <h1>🚀 Uzay Keşifleri ve Gelecek Teknolojileri</h1>
+        <nav>
+          <ul>
+            <li><a href="#hakkinda">Hakkında</a></li>
+            <li><a href="#teknolojiler">Teknolojiler</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="rocket">
+        <svg viewBox="0 0 32 44" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M16 0C16 0 25 4.08 25 21C25 25.98 22.92 32.14 21.8 35H10.2C9.08 32.14 7 25.98 7 21C7 4.08 16 0 16 0ZM20 17C20 14.8 18.2 13 16 13C13.8 13 12 14.8 12 17C12 19.2 13.8 21 16 21C18.2 21 20 19.2 20 17ZM7.38 36.04C6.42 33.58 4.34 27.7 4.04 22.3L1.78 23.8C0.66 24.56 0 25.8 0 27.14V39L7.38 36.04ZM32 39V27.14C32 25.8 31.34 24.56 30.22 23.82L27.96 22.32C27.66 27.7 25.56 33.6 24.62 36.06L32 39Z"
+          />
+        </svg>
+        <div class="glow"></div>
+      </div>
+
+      <section id="hero">
+        <h2>🌌 Evreni Keşfetmeye Hazır Mısın?</h2>
+        <p>
+          Uzay araştırmaları ve geleceğin teknolojileri hakkında en güncel
+          bilgiler burada.
+        </p>
+        <button id="keşfetButton">Keşfet!</button>
+      </section>
+
+      <section id="hakkinda">
+        <h2>🌠 Hakkında</h2>
+        <p>
+          Uzay keşifleri, insanlığın evreni anlamak için yaptığı en büyük
+          çabalardan biridir.
+        </p>
+      </section>
+
+      <section id="teknolojiler">
+        <h2>🚀 Geleceğin Uzay Teknolojileri</h2>
+        <div class="card-container">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Atlantis_taking_off_on_STS-27.jpg/600px-Atlantis_taking_off_on_STS-27.jpg"
+              alt="Gelişmiş Roketler"
+            />
+            <h3>Yeni Nesil Roketler</h3>
+            <p>
+              Yenilikçi itiş sistemleri sayesinde Mars’a daha hızlı gitmek
+              mümkün olacak.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Atlantis_taking_off_on_STS-27.jpg/600px-Atlantis_taking_off_on_STS-27.jpg"
+              alt="Uzay İstasyonları"
+            />
+            <h3>Uzay İstasyonları</h3>
+            <p>
+              Yeni modüler yapılar sayesinde Ay’da sürekli bir üs kurulabilir.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Atlantis_taking_off_on_STS-27.jpg/600px-Atlantis_taking_off_on_STS-27.jpg"
+              alt="Yapay Zeka ve Uzay"
+            />
+            <h3>Yapay Zeka</h3>
+            <p>
+              Yapay zeka, gezegen keşiflerinde ve veri analizinde devrim
+              yaratıyor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="iletisim">
+        <h2>📩 Bizimle İletişime Geçin</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Adınız" required />
+          <input
+            type="email"
+            id="email"
+            placeholder="E-posta Adresiniz"
+            required
+          />
+          <textarea id="message" placeholder="Mesajınız" required></textarea>
+          <button type="submit">Gönder</button>
+        </form>
+        <p id="formResponse"></p>
+      </section>
+    
+    <footer>
+      <p>&copy; 2025 Uzay Keşifleri. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
